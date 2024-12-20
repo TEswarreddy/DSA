@@ -2,28 +2,6 @@
 
 class Main 
 {
-    static void find(int arr[],int mid)
-    {
-        int start=mid-1;
-        int end=mid+1;
-        while(true)
-        {
-            if(arr[mid]==arr[start])
-            {
-                start--;
-            }
-            if(arr[mid]==arr[end])
-            {
-                end++;
-            }
-            if(arr[mid]!=arr[start]&&arr[mid]!=arr[end])
-            {
-                break;
-            }
-        }
-        System.out.println("starting position: "+(start+1));
-        System.out.println("ending position: "+(end-1));
-    }
     static int binarySearch(int arr[],int target)
     {
         int low =0;
@@ -56,7 +34,7 @@ class Main
         }
         else{
             System.out.println("mid value: "+res);
-            find(arr,res);
+            
             
         }
     }
