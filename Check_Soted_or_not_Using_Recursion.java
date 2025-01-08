@@ -22,3 +22,8 @@ class Check_Soted_or_not_Using_Recursion
         }
     }
 }
+
+/*
+Output:
+It is in sorted order
+*/
