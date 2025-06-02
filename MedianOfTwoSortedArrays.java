@@ -55,8 +55,13 @@ public class MedianOfTwoSortedArrays {
     }
     public static double secondApproch(int[] num1,int[] num2)
     {
+        
         int m=num1.length;
         int n=num2.length;
+        if(m>n)
+        {
+            return secondApproch(num2, num1); // Ensure num1 is the smaller array
+        }
         int start=0;
         int end=m;
         double median=0.0;
