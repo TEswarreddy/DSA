@@ -1,4 +1,4 @@
-package GreedyAlgorithms;
+package DynamicProgramming;
 
 public class LongestCommonSubsequence {
     public static int longestCommonSubsequence(int[][] lcs,String s1,int i, String s2,int j) {
