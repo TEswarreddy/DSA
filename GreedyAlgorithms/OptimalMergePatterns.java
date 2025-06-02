@@ -1,3 +1,4 @@
+package GreedyAlgorithms;
 import java.util.PriorityQueue;
 public class OptimalMergePatterns {
     public static int minCost(int[] files){
