@@ -1,3 +1,4 @@
+package Arrays;
 public class MedianOfTwoSortedArrays {
     public static double firstApproch(int nums1[],int[] nums2)
     {
